@@ -12,7 +12,7 @@
     
     <title>
         
-            标签: Linux | 
+            关于hryg.me | 
         
         Hryg&#39;s Blog
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Hryg">
     <meta name="description" itemprop="description" content="凡事尽力而为！">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,随笔">
 
     <!-- Site Verification -->
     
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://hyrg.me">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: Linux | Hryg&#39;s Blog">
+    <meta property="og:title" content="关于hryg.me | Hryg&#39;s Blog">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="凡事尽力而为！">
-    
+    <meta property="og:article:tag" content="随笔"> 
 
+    
+        <meta property="article:published_time" content="7月 23, 2017" />
+        <meta property="article:modified_time" content="7月 23, 2017" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="标签: Linux | Hryg&#39;s Blog">
+    <meta name="twitter:title" content="关于hryg.me | Hryg&#39;s Blog">
     <meta name="twitter:description" content="凡事尽力而为！">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://hyrg.me/tags/linux/index.html" />
+        <link rel="canonical" href="http://hyrg.me/2017/07/23/关于hryg-me/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Hryg&#39;s Blog",
+        "logo": "/img/favicon.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Hryg",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.png"
+        },
+        "description": "好记性不如烂键盘"
+    },
+    "headline": "关于hryg.me",
+    "url": "http://hyrg.me/2017/07/23/关于hryg-me/index.html",
+    "datePublished": "7月 23, 2017",
+    "dateModified": "7月 23, 2017",
+    "description": "凡事尽力而为！",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://hyrg.me"
+    }
+}
+</script>
 
 
     
@@ -271,96 +304,260 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#为什么会有这个博客网站"><span class="post-toc-number">1.</span> <span class="post-toc-text">为什么会有这个博客网站</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#我会在这里记录什么"><span class="post-toc-number">2.</span> <span class="post-toc-text">我会在这里记录什么</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#技术相关的内容"><span class="post-toc-number">2.0.1.</span> <span class="post-toc-text">技术相关的内容</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#关于随笔"><span class="post-toc-number">2.0.2.</span> <span class="post-toc-text">关于随笔</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#结语"><span class="post-toc-number">3.</span> <span class="post-toc-text">结语</span></a></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/06/20/测试文章/">测试文章</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/06/20/测试文章/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="Hryg's avatar">
-            </div>
-            <div>
-                <strong>Hryg</strong>
-                <span>6月 20, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/essay/">随笔</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                关于hryg.me
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Hryg</strong>
+        <span>7月 23, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/随笔/">随笔</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=关于hryg.me&url=http://hyrg.me/2017/07/23/关于hryg-me/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=关于hryg.me&url=http://hyrg.me/2017/07/23/关于hryg-me/index.html&via=Hryg" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://hyrg.me/2017/07/23/关于hryg-me/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://hyrg.me/2017/07/23/关于hryg-me/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="为什么会有这个博客网站"><a href="#为什么会有这个博客网站" class="headerlink" title="为什么会有这个博客网站"></a>为什么会有这个博客网站</h3><p>去年刚毕业，刚踏入社会，看到了很多以前没有见过的东西，体验到了很多以前没有体验到事情。</p>
+<p>新奇的东西太多，新鲜的技术也太多，心里装了 大抱负，但是又不知道从何开始。简单的说，就是在技术这条路上，职业生涯规划还不清晰。于是乎，看了好多论坛啊，网站啊什么的，讨论哪种语言好，讨论什么技术最有潜力，讨论刚入社会的小青年应该做么做，做些什么。这一点可能和我的工具癖有关系，我这人用工具希望用最好的，评价最高的，当然也要自己顺手才行，同理，其实做其他事情也是。其实我总感觉很多事情是和组装电脑一个道理，总觉得什么配件都用最好的，那这台“电脑”也会是一个完美的艺术品！对对对，这是强迫症和完美主义吧…</p>
+<p>知乎、V2EX、各种个人博客算是逛得不少了，也没有理出个什么头绪。不过也得到两点好处：</p>
+<blockquote>
+<ol>
+<li>现在热门的一些技术点都有了一个大致的了解。</li>
+<li>看了很多个人的博客，感觉很nice！漂亮，而且是属于自己的一个小网站，于是自己也想搭一个。期间自己买了一两个域名，买了Vultr的一个VPS，顺便在上面装个梯子服务器，这样顺便也有了个属于自己的梯子，多好！反正我是不搭梯子就感觉没有联网一个，会死的…在一个局域网里面上网有什么意思，离世界那么远…然后呢，试过了Wordpress、Ghost、Hexo，对比了一下，感觉还是Hexo比较适合我，哦哦，对了，想起来，最早还买了一个叫“老薛”的主机空间，算是踩了一个坑。</li>
+</ol>
+</blockquote>
+<p>到今年4月份，离开了人生第一家正式工作的公司，离职提前两个月说，拖了这么久才放人，也是醉了（小小的抱怨一下～）。找工作也不容易，经历了各种绝望以后我算是对职业规划想明白了。很多东西，不是一开始就知道好或者是不好的，拿我离职的那家公司的老大来说，他老是想告诉我怎么不去踩坑，走捷径，甚至让我做一些好多人工作几年后才会做的事情，但是很多东西，你不去尝试，不去碰壁，你根本不会了解他，而且，你不去碰，到最后也不会有自己的感悟。我对自己的悟性有信心，所以我不想浪费我这个“才华”。所以同理，在职业规划上，我觉得，选一个我目前的认知里面，比较有未来的方向，就去做！去做！去做！开始着手做，这个才是重点，之前纠结一年都是在浪费时间，不过，没有之前的纠结，也不会有现在的答案，这很尴尬～</p>
+<p>找工作期间，我想明白了这些东西。我现在最应该做的事情，就是需要把我看到的东西变成自己的！新的工作就像是一个新的人生的开始，我不要再像以前那样一直在十字路口徘徊，我应该选一条路就开始向前奔跑。找工作的那一段时间也做了许多规划，然而，这个博客网站就是规划里的第一阶段应该实现的东西——把去年做的预研工作实现成有价值的东西。</p>
+<h3 id="我会在这里记录什么"><a href="#我会在这里记录什么" class="headerlink" title="我会在这里记录什么"></a>我会在这里记录什么</h3><p>主要分为两点：1. 技术相关的内容；2.自己的一些随想，包括三观以及各种观</p>
+<h5 id="技术相关的内容"><a href="#技术相关的内容" class="headerlink" title="技术相关的内容"></a>技术相关的内容</h5><p>之前看过很多CSDN那种类型的博客，好多都是遇到一些问题的解决办法，看上去更像是笔记，而且比较糟糕的情况是，很多博客是一字不差的将人家的内容复制过来。（以下的讨论不针对任何人和任何博客以及网站，我是一个能接受和理解各种事物以及观念的人，凡事必定有其存在的道理）私以为，像这种记录问题解决方案的博客，不应该是这样存在的，至少不至于全文摘抄人家的吧！这种笔记就应该用印象笔记之类的笔记工具来搜集，而不是博客，你这样搞，人家搜一个问题，出来一大堆搜索结果都是一个样，有什么意思！？很多问题，在Stack Overflow上面一搜就能出来的，还用得着抄一堆语句不通的中文然后自己再发个博客吗？所以我想，阁下应该是不会在这个站点看到网上已经存在的博客内容的。</p>
+<p>我的想法是，如果话两分钟就能Google到的技术问题，我是不会花一个小时去写一篇博客的。理想的情况是，这个博客站点所有的技术相关的内容，都是我自己遇到的比较经典的问题，通过我自己的研究解决，即便是网上已经有的解决方案，我也是自己写下来，因为我觉得这个问题的解决对我来说很有意义，我有自己的感想。</p>
+<h5 id="关于随笔"><a href="#关于随笔" class="headerlink" title="关于随笔"></a>关于随笔</h5><p>随笔的内容应该会涉及到太多我自己的个人生活，着重写一些自己的想法和观念。我是个比较爱思考的人，从小就是，所以比较显老，很早就有法令纹了（捂嘴笑：）。有时候自己悟到一些东西，但是不久可能就会忘记，觉得真的还是应该找个地方把这些想法记录下来，日后来看，也可以看看自己在思想境界方面的成长（这也是这个站点存在的一个重要意义）。这部分内容就主要是一些价值观和对人生的思考吧。</p>
+<p>但是——但是，如果有幸，有读者读到本站的博客的话，请注意，不要因为一些奇奇怪怪的地方而怪罪。有可能我是个奇怪的人，在某个时候有一些奇怪的想法，如果您看到什么地方觉得不舒服，那么，请喝杯茶，看看电影什么的吧。比如说，这是我在这个网站写的第一篇博客，我写的时候我就觉得，既然这个分类是随笔，我写的时候干嘛还要想着内容的逻辑性，还得想我现在说的东西是不是属于我这个标题下的，是否跑题了？我突然就有了一种想法，既然是随笔，不，是随键盘…那我就随键盘呗，鄙人有时候思维比较跳跃，有可能正说这个事情呢，就突然想到另一个事情，那我就想随着自己咯，想到什么说什么，如果您在看，您要做好一个打算，我的随笔可能真的就比较随笔了～</p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>算了，今天就想到这么多，思潮这个东西，真的是一阵一阵的，有时候想到比较妙的地方的时候呢，自己在外面走路，不方便记录，当真要想写的时候呢，又要临时来瞎编点什么东西，唉，什么时候能有一个我思考的时候就能帮我自动记录的机器呢，这样我就不用再费心思去想写这个事了～</p>
+<p>好了，第一篇，敬上，拜！</p>
+<p>哦哦，对了，这个地方可能就我一个人看吧，我也不用在文章里面招呼谁了，又没有客人…其实我是不希望有客人的，我自己看就好，我都不给我女朋友看。一开始我是想着用Ghost记录我这些想法，给文章加个密码，但是喔，后来一想，这些东西又没有我的私生活，也没有什么情感故事，算了吧，谁看见这个博客也算是有缘人，让你了解我的三观也无大碍！</p>
+<p>好了，再见hryg！废话不多说了！</p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://hyrg.me/2017/07/23/关于hryg-me/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://hyrg.me/2017/07/23/关于hryg-me/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//hryg-me.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -438,7 +635,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -456,7 +653,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/essay/">随笔<span class="sidebar_archives-count">1</span></a>
+                
             </ul>
         </li>
         
@@ -554,6 +751,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
